@@ -1,4 +1,4 @@
-# fefes-blog additions
+# [Fefes Blog](https://blog.fefe.de) userscript
 custom css for https://blog.fefe.de/
 
 to install the dark theme just click [here](https://github.com/GoldenSpaceCat/fefes-blog/raw/master/dark/style.user.js) after installing [tampermonkey](https://tampermonkey.net) in the browser of your preference.
