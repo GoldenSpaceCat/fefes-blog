@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         fefes-blog dark style injector
 // @namespace    https://gottz.de
-// @version      0.1.0
+// @version      0.1.1
 // @description  applies my own css to fefe's blog
 // @author       GottZ
 // @include      /^https?://blog.fefe.de\//
@@ -13,7 +13,7 @@
 
 (function() {
     'use strict';
-    const url = 'https://cdn.rawgit.com/GoldenSpaceCat/fefes-blog/de140968/dark/style.css';
+    const url = 'https://cdn.rawgit.com/GoldenSpaceCat/fefes-blog/b52a76ac/dark/style.css';
 
     const links = [...document.querySelectorAll('link[rel="stylesheet"][type="text/css"]')];
 
