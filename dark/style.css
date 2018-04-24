@@ -6,12 +6,24 @@ html {
 	font-kerning: normal;
 }
 
+html:before {
+	content: "";
+	position: fixed;
+	z-index: -2;
+	top: 44%;
+	left: 44%;
+	width: 12%;
+	height: 12%;
+	transform: scale(10);
+	background-color: #222;
+	background-image: radial-gradient(circle at center, #333 0%, #000 100%);
+}
+
 body {
 	width: 850px;
 	box-sizing: border-box;
 	padding: 0 1em 0 1em;
 	margin: auto;
-	background-color: #222;
 	color: #aaa;
 	font-family: sans-serif;
 	will-change: transform;
@@ -41,12 +53,14 @@ body > h2 {
 	line-height: 1em;
 	padding-top: 0.3rem;
 	margin: 1rem 0 -1rem 0;
-}
+	}
 
 body > h2 > a {
-	color: #444 !important;
 	text-decoration: none !important;
 	position: relative;
+	-webkit-background-clip: text;
+	color: transparent !important;
+	background-image: radial-gradient(circle at center, #666 0%, #333 100%);
 }
 
 body > h2 > a:before {
@@ -120,7 +134,7 @@ blockquote {
 }
 
 body > ul > li {
-	background-color: #333;
+	background-color: rgba(255,255,255,0.06);
 	border-radius: 0.3em;
 	padding: 0.7em;
 	display: block;
