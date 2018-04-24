@@ -13,7 +13,7 @@
 
 (function() {
     'use strict';
-    const url = 'https://github.com/GoldenSpaceCat/fefes-blog/raw/master/dark/style.css';
+    const url = 'https://cdn.rawgit.com/GoldenSpaceCat/fefes-blog/de140968/dark/style.css';
 
     const links = [...document.querySelectorAll('link[rel="stylesheet"][type="text/css"]')];
 
