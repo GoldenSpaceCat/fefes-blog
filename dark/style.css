@@ -1,0 +1,153 @@
+html {
+	font-size: 16px;
+	line-height: 1.6em;
+	text-rendering: optimizeLegibility;
+	font-variant-ligatures: common-ligatures;
+	font-kerning: normal;
+}
+
+body {
+	width: 850px;
+	box-sizing: border-box;
+	padding: 0 1em 0 1em;
+	margin: auto;
+	background-color: #222;
+	color: #aaa;
+	font-family: sans-serif;
+	will-change: transform;
+	position: relative;
+}
+
+/* links */
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #777;
+}
+
+a:hover {
+	color: #aaa;
+	text-decoration: underline;
+}
+
+/* blog title */
+
+body > h2 {
+	font-size: 5em;
+	line-height: 1em;
+	padding-top: 0.3rem;
+	margin: 1rem 0 -1rem 0;
+}
+
+body > h2 > a {
+	color: #444 !important;
+	text-decoration: none !important;
+	position: relative;
+}
+
+body > h2 > a:before {
+	color: #666;
+	content: "Fefes Blog";
+	position: absolute;
+	z-index: -1;
+	transform: scaleX(0.98) translateX(-0.02rem);
+}
+
+/* timestamps */
+
+body > h3 {
+	margin-left: 0.7rem;
+	margin-bottom: 0.4rem;
+}
+
+/* contact info */
+
+body > b {
+	position: absolute;
+	margin-top: 2.3rem;
+	right: 1rem;
+	font-size: 0.7em;
+	line-height: 0.7em;
+}
+
+/* second line */
+
+body > p[style="text-align:right"] {
+	position: absolute;
+	right: 1rem;
+	margin: 0;
+	margin-top: 1.4rem;
+	font-size: 0.7em;
+	line-height: 0.7em;
+}
+
+/* blog container */
+
+body > ul {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 0.6em;
+}
+
+/* footer */
+
+body > div:last-child {
+	text-align: left !important;
+	position: relative;
+	margin-bottom: 0.6em;
+}
+body > div:last-child > br {
+	display: none;
+}
+body > div:last-child > a {
+	position: absolute;
+	right: 0;
+}
+
+/* blog contents */
+
+blockquote {
+	background-color: rgba(255,255,255,0.04);
+	border-left: 0.1em solid #666;
+	border-radius: 0.3em;
+	padding: 0.5em;
+	margin: 0.4em;
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.8) inset, 0 0 0.2em rgba(0,0,0,0.2);
+}
+
+body > ul > li {
+	background-color: #333;
+	border-radius: 0.3em;
+	padding: 0.7em;
+	display: block;
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.7);
+	position: relative;
+	overflow: hidden;
+}
+
+body > ul > li:not(:last-child) {
+	margin-bottom: 1em;
+}
+
+body > ul > li > a:first-child {
+	position: absolute;
+	box-sizing: border-box;
+	font-size: 0;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	border-radius: 0.3rem 0 1rem 0;
+	box-shadow: 0 0 0.3rem #000, 0 0 0.1rem #000 inset;
+	width: 0.5rem;
+	height: 0.5rem;
+}
+body > ul > li > a:first-child:visited {
+	background-color: #555;
+}
+body > ul > li > a:first-child:hover {
+	background-color: #888;
+}
