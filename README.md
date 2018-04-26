@@ -3,11 +3,14 @@ custom css for https://blog.fefe.de/
 
 to install the dark theme just click [here](https://github.com/GoldenSpaceCat/fefes-blog/raw/master/dark/style.user.js) after installing [tampermonkey](https://tampermonkey.net) in the browser of your preference.
 
+click [here](https://blog.fefe.de/?css=https://cdn.rawgit.com/GoldenSpaceCat/fefes-blog/b8814887/dark/style.css) for a live preview of the current commit
+
 ## todo for releases
 
 1. test css in your browser before pushing. then push.
 2. update rawgit url within the userscript  
-   *(just change the commit id and DON'T use master except for testing purposes [read here why](https://rawgit.com))*
+   *(just change the commit id and DON'T use master except for testing purposes [read here why](https://rawgit.com))*  
+   *(also update the preview link within this readme file)*
 3. increase version number within the userscript  
    *(else it will not update in peoples browsers)*
 4. push to git.
