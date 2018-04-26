@@ -61,6 +61,7 @@ body > h2 > a {
 	text-decoration: none !important;
 	position: relative;
 	-webkit-background-clip: text;
+	background-clip: text;
 	color: transparent !important;
 	text-shadow: 0 0 0.1em rgba(32,32,32,0.5);
 	background-image: radial-gradient(circle at center, #888 0%, #444 100%);
@@ -71,7 +72,8 @@ body > h2 > a:before {
 	content: "Fefes Blog";
 	position: absolute;
 	z-index: -1;
-	transform: scaleX(0.98) translateX(-0.02rem) translateY(-0.05rem);
+	top: 0.3rem;
+	transform: scaleX(0.98) translateX(-0.02rem);
 }
 
 /* timestamps */
