@@ -16,7 +16,7 @@ html:before {
 	height: 12%;
 	transform: scale(10);
 	background-color: #222;
-	background-image: radial-gradient(circle at center, #333 0%, #000 100%);
+	background-image: radial-gradient(circle at center, #222 0%, #000 100%);
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 	box-sizing: border-box;
 	padding: 0 1em 0 1em;
 	margin: auto;
-	color: #aaa;
+	color: #c4c4c4;
 	font-family: sans-serif;
 	will-change: transform;
 	position: relative;
@@ -38,11 +38,11 @@ a {
 }
 
 a:visited {
-	color: #777;
+	color: #999;
 }
 
 a:hover {
-	color: #aaa;
+	color: #c4c4c4;
 	text-decoration: underline;
 }
 
@@ -60,15 +60,16 @@ body > h2 > a {
 	position: relative;
 	-webkit-background-clip: text;
 	color: transparent !important;
-	background-image: radial-gradient(circle at center, #666 0%, #333 100%);
+	text-shadow: 0 0 0.1em rgba(32,32,32,0.5);
+	background-image: radial-gradient(circle at center, #888 0%, #444 100%);
 }
 
 body > h2 > a:before {
-	color: #666;
+	color: #888;
 	content: "Fefes Blog";
 	position: absolute;
 	z-index: -1;
-	transform: scaleX(0.98) translateX(-0.02rem);
+	transform: scaleX(0.98) translateX(-0.02rem) translateY(-0.05rem);
 }
 
 /* timestamps */
